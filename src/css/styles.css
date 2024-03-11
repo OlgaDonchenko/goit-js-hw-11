@@ -1,0 +1,127 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+@import url('./reset.css');
+@import url('./main.css');
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: #2E2F42;
+
+  font-family: Montserrat;
+  font-size: 24px;
+
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+
+}
+
+body {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item li {
+  color: #2E2F42;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.03em;
+
+}
+
+.gallery {
+  padding: 100px 156px;
+  display: flex;
+  width: 1128px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  column-gap: 24px;
+  row-gap: 48px;
+  background: #FFF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gallery li {
+  display: flex;
+  width: calc((100% - 48px) / 3);
+
+}
+
+.gallery img {
+  width: 360px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.login-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.widget {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+label {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+  color: rgba(255, 255, 255, 1);
+  border-color: #4E75FF;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
