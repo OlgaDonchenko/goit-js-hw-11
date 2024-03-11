@@ -1,11 +1,11 @@
 {
-  "name": "goit-js-hw-10",
+  "name": "goit-js-hw-11",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-10/",
+    "build": "vite build --base=/goit-js-hw-11/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -22,11 +22,11 @@
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   },
-  "description": "New project, HW-10",
+  "description": "New project, HW-11",
   "main": "vite.config.js",
   "repository": {
     "type": "git",
-    "url": "github.com/OlgaDonchenko/goit-js-hw-10"
+    "url": "github.com/OlgaDonchenko/goit-js-hw-11"
   },
   "keywords": []
 }
